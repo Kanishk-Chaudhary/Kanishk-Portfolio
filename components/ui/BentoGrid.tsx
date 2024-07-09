@@ -57,8 +57,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 border border-white/[0.1]",
-        className
+        "relative overflow-hidden rounded-2xl group/bento hover:shadow-xl transition duration-200 shadow-input justify-between flex flex-col space-y-1 border border-white/[0.1]",
       )}
       style={{
         background: 'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)',
@@ -70,7 +69,7 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt="img"
-              className={cn(imgClassName, 'object-cover object-contain')}
+              className={cn(imgClassName, 'object-cover')}
             />
           )}
         </div>
@@ -79,7 +78,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt="spareImg"
-              className="object-cover object-contain w-full h-full"
+              className="object-contain w-full h-full"
             />
           )}
         </div>
@@ -104,7 +103,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-8">
-                {['React.js', 'Next.js', 'Java'].map(item => (
+                {['React', 'Next.js', 'React-Native'].map(item => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
@@ -117,7 +116,7 @@ export const BentoGridItem = ({
               
               <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                {['React-Native.js', 'MongoDB', 'AWS'].map(item => (
+                {['Java', 'MongoDB', 'AWS'].map(item => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"

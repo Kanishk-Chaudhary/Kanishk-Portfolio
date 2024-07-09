@@ -1,7 +1,7 @@
 export const navItems = [
+    { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -72,35 +72,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "C++ Compiler (Ongoing Project)",
+      des: "A tool for compiling C++ code, enabling execution of programs and applications on various platforms.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      iconLists: ["/c++.png", "/assembly.png", "/cmake.png", "/github.png", "/CLion.png"],
+      link: "https://github.com/Kanishk-Chaudhary/Kanishk_Compiler",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Serverless messaging backend",
+      des: "Developing a serverless messaging infrastructure using AWS and Python for efficient and scalable applications.",
+      img: "/pr2.png",
+      iconLists: ["/aws.png", "/sqs.png", "/lambda.png", "/python.png", "/APIGateway.png"],
+      link: "https://github.com/Kanishk-Chaudhary/Serverless-Messaging-Backend-with-AWS",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Robo-3D Website",
+      des: "The Robo 3D website serves as a resource for individuals looking to step into the world of 3D modeling.",
+      img: "/pr3.png",
+      iconLists: ["/html.png", "/css.png", "/js.png", "/blender.png", "/github.png"],
+      link: "https://sonal-jk.github.io/Robo-3D/",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Portfolio Website",
+      des: "Building my portfolio website with Next.js for a modern and dynamic web presence showcasing my skills and projects.",
+      img: "/pr4.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/web3.png"],
+      link: "https://github.com/Kanishk-Chaudhary/Kanishk-Portfolio",
     },
   ];
   
