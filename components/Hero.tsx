@@ -20,7 +20,7 @@ const Hero = () => {
                     <TextGenerateEffect
                         className="text-center text-[40px] md:text-5xl lg:text-6xl"
                         words="A Software Developer" />
-                        <p className="tracking-widest text-xs text-center text-blue-100 max-w-80">
+                        <p className="tracking-widest text-lg text-center text-blue-100 max-w-80">
                             Hi! I am Kanishk Chaudhary
                         </p>
                         <a href="#about"><MagicButton 
