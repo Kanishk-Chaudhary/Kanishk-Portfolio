@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
         <div className="flex flex-col items-center">
-            <h1 className="heading lg:max-w-[45vm]">It's not a bug, it's an 
+            <h1 className="heading lg:max-w-[45vm]">Its not a bug, its an 
                 <span className="text-purple"> undocumented feature.</span>
                 </h1>
                 <a href = "mailto:opkanix@gmail.com">
